@@ -237,6 +237,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character_: {fileID: 1829796362}
   SPEED: 800
+  RUN_SPEED: 2.5
+  WALK_SPEED: 0.5
 --- !u!4 &569063401
 Transform:
   m_ObjectHideFlags: 0
