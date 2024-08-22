@@ -1,0 +1,1344 @@
+fileFormatVersion: 2
+guid: 6229ece43b529d64d8288deeb4ca4fba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8947044951461251064
+    second: nimble-boy-game-sprites_7814-450_0
+  - first:
+      213: 7597805271685129472
+    second: nimble-boy-game-sprites_7814-450_1
+  - first:
+      213: -6519966765612417745
+    second: nimble-boy-game-sprites_7814-450_2
+  - first:
+      213: 610173269348698988
+    second: nimble-boy-game-sprites_7814-450_3
+  - first:
+      213: 5979259598614099476
+    second: nimble-boy-game-sprites_7814-450_4
+  - first:
+      213: 6032793900193215977
+    second: nimble-boy-game-sprites_7814-450_5
+  - first:
+      213: -7606105585891300093
+    second: nimble-boy-game-sprites_7814-450_6
+  - first:
+      213: 5166137964670261275
+    second: nimble-boy-game-sprites_7814-450_7
+  - first:
+      213: 3103117440812340267
+    second: nimble-boy-game-sprites_7814-450_8
+  - first:
+      213: 6599371873672656356
+    second: nimble-boy-game-sprites_7814-450_9
+  - first:
+      213: 5619239393532579108
+    second: nimble-boy-game-sprites_7814-450_10
+  - first:
+      213: -7522027868724487809
+    second: nimble-boy-game-sprites_7814-450_11
+  - first:
+      213: 5452043282850101381
+    second: nimble-boy-game-sprites_7814-450_12
+  - first:
+      213: -8413800812435338301
+    second: nimble-boy-game-sprites_7814-450_13
+  - first:
+      213: 6222549088915329386
+    second: nimble-boy-game-sprites_7814-450_14
+  - first:
+      213: -1118810270861726692
+    second: nimble-boy-game-sprites_7814-450_15
+  - first:
+      213: -4349992189420135864
+    second: nimble-boy-game-sprites_7814-450_16
+  - first:
+      213: -7164515590839508717
+    second: nimble-boy-game-sprites_7814-450_17
+  - first:
+      213: 1925380079101440641
+    second: nimble-boy-game-sprites_7814-450_18
+  - first:
+      213: 8029640857799805329
+    second: nimble-boy-game-sprites_7814-450_19
+  - first:
+      213: 7095065516134173002
+    second: nimble-boy-game-sprites_7814-450_20
+  - first:
+      213: -7553871261450991530
+    second: nimble-boy-game-sprites_7814-450_21
+  - first:
+      213: 4555593353691754433
+    second: nimble-boy-game-sprites_7814-450_22
+  - first:
+      213: 5398552399775344662
+    second: nimble-boy-game-sprites_7814-450_23
+  - first:
+      213: -235922536404147214
+    second: nimble-boy-game-sprites_7814-450_24
+  - first:
+      213: 9002699590175160708
+    second: nimble-boy-game-sprites_7814-450_25
+  - first:
+      213: 2701016291503985325
+    second: nimble-boy-game-sprites_7814-450_26
+  - first:
+      213: 8951981817687673003
+    second: nimble-boy-game-sprites_7814-450_27
+  - first:
+      213: 5739250598471300102
+    second: nimble-boy-game-sprites_7814-450_28
+  - first:
+      213: -2717653102565178843
+    second: nimble-boy-game-sprites_7814-450_29
+  - first:
+      213: -8599003246498434280
+    second: nimble-boy-game-sprites_7814-450_30
+  - first:
+      213: -562078652377625793
+    second: nimble-boy-game-sprites_7814-450_31
+  - first:
+      213: -4307785548551630858
+    second: nimble-boy-game-sprites_7814-450_32
+  - first:
+      213: -2987352366118266630
+    second: nimble-boy-game-sprites_7814-450_33
+  - first:
+      213: -2084091568312430501
+    second: nimble-boy-game-sprites_7814-450_34
+  - first:
+      213: 5385546371615290687
+    second: nimble-boy-game-sprites_7814-450_35
+  - first:
+      213: -5328659078469729805
+    second: nimble-boy-game-sprites_7814-450_36
+  - first:
+      213: -5933093881826427401
+    second: nimble-boy-game-sprites_7814-450_37
+  - first:
+      213: -4675482169898224465
+    second: nimble-boy-game-sprites_7814-450_38
+  - first:
+      213: -4509492133708963814
+    second: nimble-boy-game-sprites_7814-450_39
+  - first:
+      213: 8312545601953268633
+    second: nimble-boy-game-sprites_7814-450_40
+  - first:
+      213: 8432398918686870898
+    second: nimble-boy-game-sprites_7814-450_41
+  - first:
+      213: -1242951744206505281
+    second: nimble-boy-game-sprites_7814-450_42
+  - first:
+      213: 5477669574697586174
+    second: nimble-boy-game-sprites_7814-450_43
+  - first:
+      213: -161767465341473673
+    second: nimble-boy-game-sprites_7814-450_44
+  - first:
+      213: 7056437284484962859
+    second: nimble-boy-game-sprites_7814-450_45
+  - first:
+      213: 7165642171177340659
+    second: nimble-boy-game-sprites_7814-450_46
+  - first:
+      213: -4071733985253766731
+    second: nimble-boy-game-sprites_7814-450_47
+  - first:
+      213: -5728894665879446858
+    second: nimble-boy-game-sprites_7814-450_48
+  - first:
+      213: -2548700160566526508
+    second: nimble-boy-game-sprites_7814-450_49
+  - first:
+      213: -8706903804165176741
+    second: nimble-boy-game-sprites_7814-450_50
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 265
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1112
+        width: 109
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80833b62506b5d380800000000000000
+      internalID: -8947044951461251064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1112
+        width: 108
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005e163c3a3d07960800000000000000
+      internalID: 7597805271685129472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1112
+        width: 109
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2db15c55cc6485a0800000000000000
+      internalID: -6519966765612417745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_3
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1112
+        width: 110
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bc7fa0b55c77800800000000000000
+      internalID: 610173269348698988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_4
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1112
+        width: 138
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416fc3bece89af250800000000000000
+      internalID: 5979259598614099476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_5
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1112
+        width: 129
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5f820d61ac8b350800000000000000
+      internalID: 6032793900193215977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_6
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1118
+        width: 148
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30da5dcb44fa17690800000000000000
+      internalID: -7606105585891300093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_7
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 1112
+        width: 125
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1894d48b1fc1b740800000000000000
+      internalID: 5166137964670261275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_8
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1112
+        width: 125
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2450f31fdc701b20800000000000000
+      internalID: 3103117440812340267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_9
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1112
+        width: 109
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e576fe01cda59b50800000000000000
+      internalID: 6599371873672656356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_10
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1117
+        width: 120
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d0467d47c8bfd40800000000000000
+      internalID: 5619239393532579108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_11
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 794
+        width: 109
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79961eb1836c9790800000000000000
+      internalID: -7522027868724487809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_12
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 794
+        width: 111
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588b556ca7c89ab40800000000000000
+      internalID: 5452043282850101381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_13
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 795
+        width: 131
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb06e34dbc2c3b80800000000000000
+      internalID: -8413800812435338301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_14
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 794
+        width: 112
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a619a3a8d6fea5650800000000000000
+      internalID: 6222549088915329386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_15
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 794
+        width: 109
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c6a328cff2970f0800000000000000
+      internalID: -1118810270861726692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_16
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 794
+        width: 131
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a93e5a629b1a3c0800000000000000
+      internalID: -4349992189420135864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_17
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 795
+        width: 120
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31163448707829c90800000000000000
+      internalID: -7164515590839508717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_18
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 794
+        width: 130
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18274781bf258ba10800000000000000
+      internalID: 1925380079101440641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_19
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 800
+        width: 142
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199ce1b31d30f6f60800000000000000
+      internalID: 8029640857799805329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_20
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 794
+        width: 132
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a490d43ee7cb67260800000000000000
+      internalID: 7095065516134173002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_21
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 794
+        width: 136
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6588e2e1c124b2790800000000000000
+      internalID: -7553871261450991530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_22
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 795
+        width: 128
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf6de3c408b83f30800000000000000
+      internalID: 4555593353691754433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_23
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 506
+        width: 170
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61821f90ec28bea40800000000000000
+      internalID: 5398552399775344662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_24
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 506
+        width: 168
+        height: 213
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f32f1ff3b5d9bcf0800000000000000
+      internalID: -235922536404147214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_25
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 506
+        width: 164
+        height: 213
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489f1f3349300fc70800000000000000
+      internalID: 9002699590175160708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_26
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 707
+        width: 26
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da253aba100fb7520800000000000000
+      internalID: 2701016291503985325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_27
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 694
+        width: 26
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba887079804db3c70800000000000000
+      internalID: 8951981817687673003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_28
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 704
+        width: 26
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60474dee20ae5af40800000000000000
+      internalID: 5739250598471300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_29
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 703
+        width: 27
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5224dd6e6e4f84ad0800000000000000
+      internalID: -2717653102565178843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_30
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 695
+        width: 26
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813b7065b143aa880800000000000000
+      internalID: -8599003246498434280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_31
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 506
+        width: 125
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b833591781338f0800000000000000
+      internalID: -562078652377625793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_32
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 681
+        width: 26
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffc4020edba734c0800000000000000
+      internalID: -4307785548551630858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_33
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 506
+        width: 127
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af81996c9daca86d0800000000000000
+      internalID: -2987352366118266630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_34
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 506
+        width: 125
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50d957b2c1d313e0800000000000000
+      internalID: -2084091568312430501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_35
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 533
+        width: 25
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35f58124ed4dba40800000000000000
+      internalID: 5385546371615290687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_36
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 506
+        width: 201
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1c6a2fccccc06b0800000000000000
+      internalID: -5328659078469729805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_37
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 506
+        width: 202
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd31b2ac8a69ada0800000000000000
+      internalID: -5933093881826427401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_38
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 506
+        width: 203
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa43b8dfcb95d1fb0800000000000000
+      internalID: -4675482169898224465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_39
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 513
+        width: 16
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10ebd4fbc01b61c0800000000000000
+      internalID: -4509492133708963814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_40
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 83
+        width: 110
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99309a7ee281c5370800000000000000
+      internalID: 8312545601953268633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_41
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 125
+        width: 128
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d08b8c326e50570800000000000000
+      internalID: 8432398918686870898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_42
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 227
+        width: 143
+        height: 213
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba7e9d59f520cee0800000000000000
+      internalID: -1242951744206505281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_43
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 227
+        width: 140
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd80dcc477940c40800000000000000
+      internalID: 5477669574697586174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_44
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 153
+        width: 140
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c2b1ce85941cdf0800000000000000
+      internalID: -161767465341473673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_45
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 83
+        width: 134
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a5c89d2508de160800000000000000
+      internalID: 7056437284484962859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_46
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 98
+        width: 120
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe8598e699717360800000000000000
+      internalID: 7165642171177340659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_47
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 94
+        width: 120
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9401d638b4e77c0800000000000000
+      internalID: -4071733985253766731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_48
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 94
+        width: 137
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba10a487a0ee70b0800000000000000
+      internalID: -5728894665879446858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_49
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 94
+        width: 157
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd737225b231acd0800000000000000
+      internalID: -2548700160566526508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nimble-boy-game-sprites_7814-450_50
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 83
+        width: 228
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52cc3b0f1dda2780800000000000000
+      internalID: -8706903804165176741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
