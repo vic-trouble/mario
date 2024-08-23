@@ -6,11 +6,20 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject character_;
+    public GameObject groundCheck_;     // TODO: encapsulate in the unit
+
     public float SPEED = 300;
+    public float AIRBORNE_SPEED_FACTOR = 0.5f;
     public float JUMP_HEIGHT = 300;
     public float RUN_SPEED = 300;
     public float WALK_SPEED = 100;
     private bool jumpingAction_ = false;
+
+    private bool IsAirBorne()
+    {
+        var gcheck = groundCheck_.GetComponent<GroundCheck>();
+        return !gcheck.GetHit();
+    }
 
     void FixedUpdate()
     {
@@ -18,15 +27,16 @@ public class PlayerController : MonoBehaviour
 
         // apply movement
         int direction = 1;  // TODO: encapsulate in Unit class
+        float speedFactor = IsAirBorne() ? AIRBORNE_SPEED_FACTOR : 1;
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            body.AddForce(new Vector2(SPEED * Time.deltaTime, 0));
+            body.AddForce(new Vector2(SPEED * speedFactor * Time.deltaTime, 0));
             direction = 1;
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            body.AddForce(new Vector2(-SPEED * Time.deltaTime, 0));
+            body.AddForce(new Vector2(-SPEED * speedFactor * Time.deltaTime, 0));
             direction = -1;
         }
 
@@ -35,21 +45,46 @@ public class PlayerController : MonoBehaviour
 
         // animate
         var animator = character_.GetComponent<Animator>();
-        float speed = Mathf.Abs(body.velocity[0]);
-        if (speed >= RUN_SPEED)
+        if (IsAirBorne())
         {
-            animator.SetBool("walk", false);
-            animator.SetBool("run", true);
-        }
-        else if (speed >= WALK_SPEED)
-        {
-            animator.SetBool("walk", true);
-            animator.SetBool("run", false);
+            if (body.velocity[1] > 0 && !animator.GetBool("jump up"))
+            {
+                animator.SetBool("jump up", true);
+                animator.SetBool("walk", false);
+                animator.SetBool("run", false);
+            }
+            else if (body.velocity[1] < 0 && !animator.GetBool("fall down"))
+            { 
+                animator.SetBool("jump up", false);
+                animator.SetBool("fall down", true);
+                animator.SetBool("walk", false);
+                animator.SetBool("run", false);
+            }
         }
         else
         {
-            animator.SetBool("walk", false);
-            animator.SetBool("run", false);
+            float speed = Mathf.Abs(body.velocity[0]);
+            if (speed >= RUN_SPEED)
+            {
+                animator.SetBool("walk", false);
+                animator.SetBool("run", true);
+                animator.SetBool("jump up", false);
+                animator.SetBool("fall down", false);
+            }
+            else if (speed >= WALK_SPEED)
+            {
+                animator.SetBool("walk", true);
+                animator.SetBool("run", false);
+                animator.SetBool("jump up", false);
+                animator.SetBool("fall down", false);
+            }
+            else
+            {
+                animator.SetBool("walk", false);
+                animator.SetBool("run", false);
+                animator.SetBool("jump up", false);
+                animator.SetBool("fall down", false);
+            }
         }
     }
 
