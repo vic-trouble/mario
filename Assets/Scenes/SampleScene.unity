@@ -252,12 +252,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character_: {fileID: 1302431211}
-  groundCheck_: {fileID: 2047875286}
-  SPEED: 800
-  AIRBORNE_SPEED_FACTOR: 0.5
-  JUMP_HEIGHT: 600
-  RUN_SPEED: 2.5
-  WALK_SPEED: 0.1
 --- !u!4 &569063401
 Transform:
   m_ObjectHideFlags: 0
@@ -702,6 +696,7 @@ GameObject:
   - component: {fileID: 1302431213}
   - component: {fileID: 1302431212}
   - component: {fileID: 1302431216}
+  - component: {fileID: 1302431217}
   m_Layer: 0
   m_Name: Boy
   m_TagString: Untagged
@@ -841,6 +836,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1302431217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302431211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38fc0469ce88ed54fbfc5f615b295024, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundCheck_: {fileID: 2047875286}
+  SPEED_IMPULSE: 800
+  AIRBORNE_SPEED_FACTOR: 0.5
+  JUMP_IMPULSE: 600
+  RUN_SPEED: 2.5
+  WALK_SPEED: 0.1
 --- !u!1 &1413619633
 GameObject:
   m_ObjectHideFlags: 0
