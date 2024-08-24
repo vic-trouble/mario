@@ -70,4 +70,14 @@ public class Unit : MonoBehaviour
         var body = gameObject.GetComponent<Rigidbody2D>();
         body.AddForce(new Vector2(0, JUMP_IMPULSE));
     }
+
+    protected void PlaySFX(AudioClip sfx)
+    {
+        if (sfx)
+        {
+            var audio = gameObject.GetComponent<AudioSource>();
+            audio.PlayOneShot(sfx);
+        }
+    }
+
 }

@@ -6,6 +6,8 @@ public class Monster : Unit
 {
     public GameObject faceHitCheck;
 
+    public AudioClip sfxDie_;
+
     private void Start()
     {
         faceHitCheck.GetComponent<GroundCheck>().SetTriggerEnterAction(HandleFaceCollision);
@@ -39,6 +41,8 @@ public class Monster : Unit
                 animator.SetBool("run", false);
                 animator.SetBool("jump up", false);
                 animator.SetBool("fall down", false);
+
+                PlaySFX(sfxDie_);
             }
             return;
         }

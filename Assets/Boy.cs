@@ -7,6 +7,9 @@ public class Boy : Unit
     public float RUN_SPEED = 2.5f;      // in tiles
     public float WALK_SPEED = 0.1f;     // in tiles
 
+    public AudioClip sfxJump_;
+    public AudioClip sfxDie_;
+
     private void Start()
     {
         groundCheck_.GetComponent<GroundCheck>().SetTriggerEnterAction(HandleGroundCheckCollision);
@@ -24,12 +27,13 @@ public class Boy : Unit
         {
             if (!animator.GetBool("die"))
             {
-                Debug.Log("die");
                 animator.SetBool("die", true);
                 animator.SetBool("walk", false);
                 animator.SetBool("run", false);
                 animator.SetBool("jump up", false);
                 animator.SetBool("fall down", false);
+
+                PlaySFX(sfxDie_);
             }
             return;
         }
@@ -42,6 +46,8 @@ public class Boy : Unit
                 animator.SetBool("jump up", true);
                 animator.SetBool("walk", false);
                 animator.SetBool("run", false);
+
+                PlaySFX(sfxJump_);
             }
             else if (body.velocity[1] < 0 && !animator.GetBool("fall down"))
             {
