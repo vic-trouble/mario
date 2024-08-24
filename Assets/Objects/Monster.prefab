@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundCheck_: {fileID: 8205239616136906614}
-  SPEED_IMPULSE: 500
+  SPEED_IMPULSE: 400
   AIRBORNE_SPEED_FACTOR: 0.5
   JUMP_IMPULSE: 600
   faceHitCheck: {fileID: 8205239615867186606}
