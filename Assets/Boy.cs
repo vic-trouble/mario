@@ -24,6 +24,7 @@ public class Boy : Unit
         {
             if (!animator.GetBool("die"))
             {
+                Debug.Log("die");
                 animator.SetBool("die", true);
                 animator.SetBool("walk", false);
                 animator.SetBool("run", false);
