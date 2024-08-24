@@ -38,6 +38,24 @@ TextureImporter:
   - first:
       213: 3991679607771703189
     second: Green character spritesheet_11
+  - first:
+      213: -8687989036030112523
+    second: Green character spritesheet_12
+  - first:
+      213: 3030652107175924997
+    second: Green character spritesheet_13
+  - first:
+      213: -8608957185157965991
+    second: Green character spritesheet_14
+  - first:
+      213: -9209431746881005581
+    second: Green character spritesheet_15
+  - first:
+      213: -7096725950680761397
+    second: Green character spritesheet_16
+  - first:
+      213: 7194199019969424723
+    second: Green character spritesheet_17
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -386,6 +404,132 @@ TextureImporter:
       bones: []
       spriteID: 5972766547b456730800000000000000
       internalID: 3991679607771703189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green character spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 6
+        width: 157
+        height: 208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fccfeea0001e6780800000000000000
+      internalID: -8687989036030112523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green character spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 51
+        width: 157
+        height: 158
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505920ec80a0f0a20800000000000000
+      internalID: 3030652107175924997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green character spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 97
+        width: 157
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957dc146d07d68880800000000000000
+      internalID: -8608957185157965991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green character spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 128
+        width: 154
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7d3ffae96813080800000000000000
+      internalID: -9209431746881005581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green character spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 167
+        width: 146
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb7061195d538d90800000000000000
+      internalID: -7096725950680761397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green character spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 187
+        width: 116
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dadb464ede6d360800000000000000
+      internalID: 7194199019969424723
       vertices: []
       indices: 
       edges: []

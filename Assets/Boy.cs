@@ -7,6 +7,16 @@ public class Boy : Unit
     public float RUN_SPEED = 2.5f;      // in tiles
     public float WALK_SPEED = 0.1f;     // in tiles
 
+    private void Start()
+    {
+        groundCheck_.GetComponent<GroundCheck>().SetTriggerEnterAction(HandleGroundCheckCollision);
+    }
+
+    private void HandleGroundCheckCollision(Collider2D collider)
+    {
+        CollisionManager.Instance().HandleBoyJumpsOn(this, collider.gameObject);
+    }
+
     private void Animate()
     {
         var body = gameObject.GetComponent<Rigidbody2D>();
@@ -54,13 +64,6 @@ public class Boy : Unit
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
         Animate();

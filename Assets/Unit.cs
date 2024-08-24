@@ -10,7 +10,24 @@ public class Unit : MonoBehaviour
     public float AIRBORNE_SPEED_FACTOR = 0.5f;
     public float JUMP_IMPULSE = 600;
 
+    private bool isDead = false;
     private int direction_ = 1;
+
+    public void Die()
+    {
+        isDead = true;
+
+        // unit no longer collides with the world
+        var collider = gameObject.GetComponent<Collider2D>();
+        collider.enabled = false;
+        var body = gameObject.GetComponent<Rigidbody2D>();
+        body.simulated = false;
+    }
+
+    public bool IsDead()
+    {
+        return isDead;
+    }
 
     public bool IsAirBorne()
     {
@@ -20,6 +37,11 @@ public class Unit : MonoBehaviour
 
     public void Move(int direction, float deltaTime)
     {
+        if (isDead)
+        {
+            return;
+        }
+
         // apply movement
         direction_ = direction;
         float speedFactor = IsAirBorne() ? AIRBORNE_SPEED_FACTOR : 1;
@@ -33,6 +55,11 @@ public class Unit : MonoBehaviour
 
     public void Jump()
     {
+        if (isDead)
+        {
+            return;
+        }
+
         // no fly mode
         if (IsAirBorne())
         {
@@ -42,17 +69,5 @@ public class Unit : MonoBehaviour
         // jump
         var body = gameObject.GetComponent<Rigidbody2D>();
         body.AddForce(new Vector2(0, JUMP_IMPULSE));
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

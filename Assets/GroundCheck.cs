@@ -1,10 +1,17 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GroundCheck : MonoBehaviour
 {
+    private Action<Collider2D> triggerEnterAction_ = (collider) => {};
     private bool hit_ = false;
+
+    public void SetTriggerEnterAction(Action<Collider2D> triggerEnterAction)
+    {
+        triggerEnterAction_ = triggerEnterAction;
+    }
 
     public bool GetHit()
     {
@@ -14,12 +21,11 @@ public class GroundCheck : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collider)
     {
         hit_ = true;
-        //Debug.Log("hit");
+        triggerEnterAction_(collider);
     }
 
     private void OnTriggerExit2D(Collider2D collider)
     {
         hit_ = false;
-        //Debug.Log("not hit");
     }
 }
