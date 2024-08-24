@@ -19,8 +19,21 @@ public class Boy : Unit
 
     private void Animate()
     {
-        var body = gameObject.GetComponent<Rigidbody2D>();
         var animator = gameObject.GetComponent<Animator>();
+        if (IsDead())
+        {
+            if (!animator.GetBool("die"))
+            {
+                animator.SetBool("die", true);
+                animator.SetBool("walk", false);
+                animator.SetBool("run", false);
+                animator.SetBool("jump up", false);
+                animator.SetBool("fall down", false);
+            }
+            return;
+        }
+
+        var body = gameObject.GetComponent<Rigidbody2D>();
         if (IsAirBorne())
         {
             if (body.velocity[1] > 0 && !animator.GetBool("jump up"))

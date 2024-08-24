@@ -6,6 +6,16 @@ public class Monster : Unit
 {
     public GameObject faceHitCheck;
 
+    private void Start()
+    {
+        faceHitCheck.GetComponent<GroundCheck>().SetTriggerEnterAction(HandleFaceCollision);
+    }
+
+    private void HandleFaceCollision(Collider2D collider)
+    {
+        CollisionManager.Instance().HandleMonsterBumpsInto(this, collider.gameObject);
+    }
+
     public bool GetFaceHit()
     {
         return faceHitCheck.GetComponent<GroundCheck>().GetHit();

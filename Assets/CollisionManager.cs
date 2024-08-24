@@ -34,6 +34,6 @@ public class CollisionManager : MonoBehaviour
 
     private void HandleMonsterBumpsIntoBoy(Monster monster, Boy boy)
     {
-        // so far nop
+        boy.Die();
     }
 }
