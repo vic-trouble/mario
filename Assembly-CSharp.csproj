@@ -62,6 +62,8 @@
     <Compile Include="Assets\Monster.cs" />
     <Compile Include="Assets\MonsterWanderController.cs" />
     <Compile Include="Assets\CollisionManager.cs" />
+    <Compile Include="Assets\Boomerang.cs" />
+    <Compile Include="Assets\ActiveObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

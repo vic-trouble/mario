@@ -7,6 +7,9 @@ public class Boy : Unit
     public float RUN_SPEED = 2.5f;      // in tiles
     public float WALK_SPEED = 0.1f;     // in tiles
 
+    public GameObject boomerangObject;
+    public bool hasBoomerang = false;
+
     public AudioClip sfxJump_;
     public AudioClip sfxDie_;
 
@@ -84,8 +87,33 @@ public class Boy : Unit
         }
     }
 
-    void Update()
+    private void Update()
     {
         Animate();
+    }
+
+    public bool HasBoomerang()
+    {
+        return hasBoomerang;
+    }
+
+    public void ThrowBoomerang()
+    {
+        if (!HasBoomerang())
+        {
+            return;
+        }
+
+        hasBoomerang = false;
+
+        var boomerang = Instantiate(boomerangObject).GetComponent<Boomerang>();
+        var displacement = new Vector3(GetDirection(), 0.5f, 0);
+        boomerang.transform.position = gameObject.transform.position + displacement;
+        boomerang.Throw(GetDirection());
+    }
+
+    public void CollectBoomerang()
+    {
+        hasBoomerang = true;
     }
 }

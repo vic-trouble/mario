@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Unit : MonoBehaviour
+public class Unit : ActiveObject
 {
     public GameObject groundCheck_;
 
@@ -12,6 +12,11 @@ public class Unit : MonoBehaviour
 
     private bool isDead = false;
     private int direction_ = 1;
+
+    protected int GetDirection()
+    {
+        return direction_;
+    }
 
     public void Die()
     {
@@ -70,14 +75,4 @@ public class Unit : MonoBehaviour
         var body = gameObject.GetComponent<Rigidbody2D>();
         body.AddForce(new Vector2(0, JUMP_IMPULSE));
     }
-
-    protected void PlaySFX(AudioClip sfx)
-    {
-        if (sfx)
-        {
-            var audio = gameObject.GetComponent<AudioSource>();
-            audio.PlayOneShot(sfx);
-        }
-    }
-
 }

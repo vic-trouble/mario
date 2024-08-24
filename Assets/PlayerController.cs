@@ -25,8 +25,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        var body = character_.GetComponent<Rigidbody2D>();
-
         if (Input.GetKey(KeyCode.UpArrow))
         {
             if (!jumpingAction_)
@@ -41,6 +39,12 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.UpArrow))
         {
             jumpingAction_ = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            var boy = character_.GetComponent<Boy>();
+            boy.ThrowBoomerang();
         }
     }
 }

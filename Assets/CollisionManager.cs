@@ -36,4 +36,33 @@ public class CollisionManager : MonoBehaviour
     {
         boy.Die();
     }
+
+    public void HandleBoomerang(Boomerang boomerang, GameObject obj)
+    {
+        var monster = obj.GetComponent<Monster>();
+        if (monster)
+        {
+            HandleBoomerangHitsMonster(boomerang, monster);
+        }
+
+        var boy = obj.GetComponent<Boy>();
+        if (boy)
+        {
+            HandleBoomerangHitsBoy(boomerang, boy);
+        }
+    }
+
+    private void HandleBoomerangHitsMonster(Boomerang boomerang, Monster monster)
+    {
+        if (boomerang.IsFatalVelocity())
+        {
+            monster.Die();
+        }
+    }
+
+    private void HandleBoomerangHitsBoy(Boomerang boomerang, Boy boy)
+    {
+        boy.CollectBoomerang();
+        Destroy(boomerang.gameObject);
+    }
 }
