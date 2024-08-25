@@ -17,7 +17,14 @@ public class CheckPoint : ActiveObject
         if (!hasWin)
         {
             PlaySFX(sfxWin);
+            PlayVFX();
             hasWin = true;
         }
+    }
+
+    private void PlayVFX()
+    {
+        var particles = GetComponent<ParticleSystem>();   // TODO: temp
+        particles.Play();
     }
 }
