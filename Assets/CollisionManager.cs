@@ -29,6 +29,7 @@ public class CollisionManager : MonoBehaviour
 
     private void HandleBoyJumpsOnMonster(Boy boy, Monster monster)
     {
+        boy.Jump(0.25f);
         monster.Die();
     }
 

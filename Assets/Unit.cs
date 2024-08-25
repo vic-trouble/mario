@@ -71,7 +71,7 @@ public class Unit : ActiveObject
         body.transform.localScale = new Vector3(Mathf.Abs(body.transform.localScale.x) * direction, body.transform.localScale.y, 1);
     }
 
-    public void Jump()
+    public void Jump(float strength = 1)
     {
         if (isDead)
         {
@@ -86,7 +86,7 @@ public class Unit : ActiveObject
 
         // jump
         var body = gameObject.GetComponent<Rigidbody2D>();
-        body.AddForce(new Vector2(0, JUMP_IMPULSE));
+        body.AddForce(new Vector2(0, JUMP_IMPULSE * strength));
     }
 
     protected void Update()
