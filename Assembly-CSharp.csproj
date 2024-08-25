@@ -53,17 +53,19 @@
     <UnityVersion>2020.2.1f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\CollisionManager.cs" />
     <Compile Include="Assets\Boy.cs" />
+    <Compile Include="Assets\ActiveObject.cs" />
     <Compile Include="Assets\CameraController.cs" />
     <Compile Include="Assets\GroundCheck.cs" />
+    <Compile Include="Assets\MonsterWanderController.cs" />
+    <Compile Include="Assets\Boomerang.cs" />
     <Compile Include="Assets\MonsterChaseController.cs" />
     <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\MonsterGenerator.cs" />
     <Compile Include="Assets\Unit.cs" />
     <Compile Include="Assets\Monster.cs" />
-    <Compile Include="Assets\MonsterWanderController.cs" />
-    <Compile Include="Assets\CollisionManager.cs" />
-    <Compile Include="Assets\Boomerang.cs" />
-    <Compile Include="Assets\ActiveObject.cs" />
+    <Compile Include="Assets\CheckPoint.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

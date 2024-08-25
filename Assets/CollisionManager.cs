@@ -65,4 +65,18 @@ public class CollisionManager : MonoBehaviour
         boy.CollectBoomerang();
         Destroy(boomerang.gameObject);
     }
+
+    public void HandleCheckPointReached(CheckPoint checkPoint, GameObject obj)
+    {
+        var boy = obj.GetComponent<Boy>();
+        if (boy)
+        {
+            HandleCheckPointReachedByBoy(checkPoint, boy);
+        }
+    }
+
+    private void HandleCheckPointReachedByBoy(CheckPoint checkPoint, Boy boy)
+    {
+        checkPoint.Win();
+    }
 }
