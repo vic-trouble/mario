@@ -30,6 +30,18 @@ public class Unit : ActiveObject
         body.simulated = false;
     }
 
+    protected void Respawn(Vector3 position)
+    {
+        isDead = false;
+
+        gameObject.transform.position = position;
+
+        var collider = gameObject.GetComponent<Collider2D>();
+        collider.enabled = true;
+        var body = gameObject.GetComponent<Rigidbody2D>();
+        body.simulated = true;
+    }
+
     public bool IsDead()
     {
         return isDead;

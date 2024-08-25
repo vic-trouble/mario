@@ -117,4 +117,17 @@ public class Boy : Unit
     {
         hasBoomerang = true;
     }
+
+    public void Respawn()
+    {
+        hasBoomerang = false;
+
+        var respawnPoint = GameObject.Find("BoyRespawn");  // TODO: something better?
+        base.Respawn(respawnPoint.transform.position);
+
+        var animator = gameObject.GetComponent<Animator>();
+        animator.SetBool("die", false);
+        animator.Rebind();
+        animator.Update(0f);
+    }
 }

@@ -44,7 +44,14 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             var boy = character_.GetComponent<Boy>();
-            boy.ThrowBoomerang();
+            if (boy.IsDead())
+            {
+                boy.Respawn();
+            }
+            else
+            {
+                boy.ThrowBoomerang();
+            }
         }
     }
 }
