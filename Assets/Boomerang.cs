@@ -60,7 +60,10 @@ public class Boomerang : ActiveObject
         var collider = collision.collider.gameObject;
         CollisionManager.Instance().HandleBoomerang(this, collider);
 
-        PlaySFX(sfxHit_);
+        if (IsFatalVelocity())
+        {
+            PlaySFX(sfxHit_);
+        }
     }
 
     public bool IsFatalVelocity()
