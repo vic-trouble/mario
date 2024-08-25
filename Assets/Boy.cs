@@ -87,8 +87,9 @@ public class Boy : Unit
         }
     }
 
-    private void Update()
+    private new void Update()
     {
+        base.Update();
         Animate();
     }
 

@@ -9,6 +9,7 @@ public class Unit : ActiveObject
     public float SPEED_IMPULSE = 800;
     public float AIRBORNE_SPEED_FACTOR = 0.5f;
     public float JUMP_IMPULSE = 600;
+    public float TERMINAL_SPEED = 5;
 
     private bool isDead = false;
     private int direction_ = 1;
@@ -74,5 +75,14 @@ public class Unit : ActiveObject
         // jump
         var body = gameObject.GetComponent<Rigidbody2D>();
         body.AddForce(new Vector2(0, JUMP_IMPULSE));
+    }
+
+    protected void Update()
+    {
+        var body = gameObject.GetComponent<Rigidbody2D>();
+        if (!IsDead() && body.velocity[1] < -TERMINAL_SPEED)
+        {
+            Die();
+        }
     }
 }

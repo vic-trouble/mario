@@ -24,8 +24,9 @@ public class Monster : Unit
     }
 
     // Update is called once per frame
-    void Update()
+    private new void Update()
     {
+        base.Update();
         Animate();
     }
 
