@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Back
+    uniqueID: 3379762667
+    locked: 0
+  - name: Back-decor
+    uniqueID: 2473663087
+    locked: 0
+  - name: Active
+    uniqueID: 3409483215
+    locked: 0
+  - name: Fore
+    uniqueID: 2090176531
+    locked: 0
