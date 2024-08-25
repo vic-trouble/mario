@@ -55,7 +55,7 @@ public class Unit : ActiveObject
         body.AddForce(new Vector2(direction * SPEED_IMPULSE * speedFactor * deltaTime, 0));
 
         // turn to the side of movement
-        body.transform.localScale = new Vector3(direction, 1, 1);
+        body.transform.localScale = new Vector3(Mathf.Abs(body.transform.localScale.x) * direction, body.transform.localScale.y, 1);
     }
 
     public void Jump()
